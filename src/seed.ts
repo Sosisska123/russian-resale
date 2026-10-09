@@ -6,7 +6,7 @@ const ph = (t: string, g: number) =>
 		`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500"><rect width="400" height="500" fill="hsl(0 0% ${g}%)"/><text x="200" y="255" font-family="monospace" font-size="20" text-anchor="middle" fill="#666">${t}</text></svg>`,
 	)
 
-const mk = (
+const make = (
 	i: number,
 	title: string,
 	brand: string,
@@ -28,8 +28,8 @@ const mk = (
 })
 
 export const SEED: Product[] = [
-	mk(1, 'Бомбер Archive', 'ERD', 'Верхняя одежда', 'L', 'Отличное', 64000),
-	mk(
+	make(1, 'Бомбер Archive', 'ERD', 'Верхняя одежда', 'L', 'Отличное', 64000),
+	make(
 		2,
 		'Брюки карго',
 		'Rick Owens',
@@ -38,8 +38,8 @@ export const SEED: Product[] = [
 		'Хорошее — потёртости на коленях',
 		38000,
 	),
-	mk(3, 'Футболка Gazelle', 'MM', 'Футболки', 'M', 'Новое', 9500),
-	mk(
+	make(3, 'Футболка Gazelle', 'MM', 'Футболки', 'M', 'Новое', 9500),
+	make(
 		4,
 		'Кроссовки Track',
 		'Balenciaga',
@@ -48,7 +48,7 @@ export const SEED: Product[] = [
 		'Есть дефекты — стёрта подошва',
 		27000,
 	),
-	mk(
+	make(
 		5,
 		'Куртка Hooded',
 		'Number (N)ine',
@@ -57,7 +57,7 @@ export const SEED: Product[] = [
 		'Хорошее',
 		52000,
 	),
-	mk(6, 'Футболка Level', 'Rick Owens', 'Футболки', 'L', 'Отличное', 14000),
-	mk(7, 'Брюки Wide', 'ERD', 'Брюки', '50', 'Новое', 31000),
-	mk(8, 'Кроссовки Tabi', 'MM', 'Кроссовки', '42', 'Отличное', 36000),
+	make(6, 'Футболка Level', 'Rick Owens', 'Футболки', 'L', 'Отличное', 14000),
+	make(7, 'Брюки Wide', 'ERD', 'Брюки', '50', 'Новое', 31000),
+	make(8, 'Кроссовки Tabi', 'MM', 'Кроссовки', '42', 'Отличное', 36000),
 ]
