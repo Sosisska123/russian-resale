@@ -1,0 +1,27 @@
+/* Глобальные переменные темы: только чёрный, белый и оттенки серого */
+:root {
+	--c-bg: #ffffff;
+	--c-fg: #000000;
+	--c-gray-1: #f2f2f2;
+	--c-gray-2: #d9d9d9;
+	--c-gray-3: #8c8c8c;
+	--c-gray-4: #404040;
+	--c-invert-bg: #000000;
+	--c-invert-fg: #ffffff;
+
+	--font: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
+	--fs-s: 0.75rem;
+	--fs-m: 0.875rem;
+	--fs-l: 1.125rem;
+	--fs-xl: clamp(1.75rem, 6vw, 3.5rem);
+	--fs-xxl: clamp(2.25rem, 11vw, 7rem);
+	--ls-wide: 0.08em;
+
+	--sp-1: 0.25rem;
+	--sp-2: 0.5rem;
+	--sp-3: 1rem;
+	--sp-4: 1.5rem;
+	--sp-5: 3rem;
+	--bw: 1px;
+	--max: 1200px;
+}

@@ -1,0 +1,43 @@
+.card {
+	position: relative;
+	background: var(--c-bg);
+}
+.link {
+	text-decoration: none;
+	display: block;
+}
+.img {
+	aspect-ratio: 4 / 5;
+	width: 100%;
+	object-fit: cover;
+	background: var(--c-gray-1);
+}
+.caption {
+	padding: var(--sp-2) var(--sp-3) var(--sp-3);
+	display: grid;
+	gap: var(--sp-1);
+}
+.title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.meta {
+	color: var(--c-gray-3);
+	font-size: var(--fs-s);
+}
+.price {
+	font-weight: 700;
+}
+.fav {
+	position: absolute;
+	top: var(--sp-2);
+	right: var(--sp-2);
+	background: var(--c-bg);
+	border: var(--bw) solid var(--c-fg);
+	padding: 0 var(--sp-2);
+}
+.fav[aria-pressed='true'] {
+	background: var(--c-invert-bg);
+	color: var(--c-invert-fg);
+}
